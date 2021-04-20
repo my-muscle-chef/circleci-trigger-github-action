@@ -26,7 +26,8 @@ const {
       const res = await postCircleciAction({
         token,
         repoName,
-        branchName
+        branchName,
+        jobName
       });
 
       console.log(`Job ${res.statusText}`);
